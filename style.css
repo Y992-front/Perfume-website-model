@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,700&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+.line {
+        text-decoration: line-through;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        color: hsl(228, 12%, 48%);
+}
+.cyan {
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+font-weight: 700;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.darkblue {
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+.grayh4 {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+}
+body {
+    color: hsl(30, 38%, 92% 0.25);
+}
+li {
+    list-style-type: none;
+}
+p {
+    color: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+.textbt {
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-weight: 500;
+color: white;
+background-color: hsl(158, 36%, 37%);
+border: 1px hsl(158, 36%, 37%) solid;
+border-radius: 5px;
+size: 10px;
+}
+.image {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: 10vh;
+}
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    .image {
+        background-image: url('image-product-desktop.jpg');
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+    }
+}
